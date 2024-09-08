@@ -1,14 +1,14 @@
 body {
-	font-family: Roboto, sans-serif;
+	font-family: "Titilium Web", sans-serif;
 }
 
 .navbar {
-	background-color: #e15f41;
+	background-color: hsl(120, 73%, 37%);
 }
 
 #cabecalho .nav .nav-link.active {
 	background-color: white;
-	color: #e15f41;
+	color: hsl(120, 73%, 37%);
 }
 
 #cabecalho .nav .nav-link,
@@ -18,30 +18,46 @@ body {
 	color: white;
 }
 
+.carousel-item img {
+	height: 600px;
+}
+
 .section-title {
-	font-family: Pacifico, cursive;
+	font-family: Tomorrow, sans-serif;
+}
+
+.text-decoration-underline {
+	text-decoration-color: hsl(120, 73%, 37%) !important;
+	text-underline-offset: 7px;
 }
 
 .navbar-toggler {
 	background-color: #fff;
 }
 
-#sobre-o-restaurante, #cardapio {
-    background-color: #ffeae6;
+#sobre-a-empresa,
+#cardapio {
+	background-color: #ffeae6;
 }
 
 .text-colored {
-    color: #e15f41;
+	color: hsl(120, 73%, 37%);
 }
 
 .nav-cardapio .nav-link.active,
 #fale-conosco button {
-	background-color: #e15f41;
+	background-color: hsl(120, 73%, 37%);
 	color: white;
 }
 
 .nav-cardapio .nav-link:hover {
-	color: #e15f41;
+	color: hsl(120, 73%, 37%);
+}
+
+.flex-list-style {
+	margin-bottom: 12px;
+	display: flex;
+	align-items: center;
 }
 
 @media screen and (max-width: 767px) {

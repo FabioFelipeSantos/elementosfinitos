@@ -11,7 +11,7 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link
-			href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+			href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&family=Tomorrow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
 			rel="stylesheet"
 		/>
 		<link
@@ -23,7 +23,7 @@
 	<body>
 		<header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
 			<div class="container">
-				<h1 class="section-title navbar-brand m-0">Nome do Restaurante</h1>
+				<h1 class="section-title navbar-brand m-0 fs-1">Mesh Analises</h1>
 				<button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
 					<span class="navbar-toggler-icon"></span>
 				</button>
@@ -31,27 +31,27 @@
 				<nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
 					<ul class="nav nav-pills d-block d-lg-flex">
 						<li class="nav-item fw-bold">
-							<a href="#sobre-o-restaurante" class="nav-link">
+							<a href="#sobre-a-empresa" class="nav-link">
 								<i class="bi bi-house-door me-1"></i>
-								Sobre o restaurante</a
+								Sobre a empresa</a
 							>
 						</li>
 						<li class="nav-item fw-bold">
 							<a href="#eventos" class="nav-link">
 								<i class="bi bi-calendar-check me-1"></i>
-								Eventos</a
+								Tipos de Análises</a
 							>
 						</li>
 						<li class="nav-item fw-bold">
 							<a href="#cardapio" class="nav-link">
 								<i class="bi bi-card-text me-1"></i>
-								Nosso cardápio</a
+								Nossos Produtos</a
 							>
 						</li>
 						<li class="nav-item fw-bold">
 							<a href="#fale-conosco" class="nav-link">
 								<i class="bi bi-chat-left-text me-1"></i>
-								Fale conosco</a
+								Entre em contato</a
 							>
 						</li>
 					</ul>
@@ -63,13 +63,13 @@
 			<div class="carousel slide" id="carousel" data-bs-ride="carousel">
 				<div class="carousel-inner">
 					<div class="carousel-item active" data-bs-interval="3000">
-						<img src="images/slides/slide1.png" />
+						<img class="d-block w-100" src="img/carousel/carousel-01.jpeg" />
 					</div>
 					<div class="carousel-item" data-bs-interval="3000">
-						<img src="images/slides/slide2.png" />
+						<img class="d-block w-100" src="img/carousel/carousel-02.png" />
 					</div>
 					<div class="carousel-item" data-bs-interval="3000">
-						<img src="images/slides/slide3.png" />
+						<img class="d-block w-100" src="img/carousel/carousel-03.jpg" />
 					</div>
 				</div>
 				<button
@@ -100,36 +100,77 @@
 				</div>
 			</div>
 
-			<section class="" id="sobre-o-restaurante">
+			<section class="" id="sobre-a-empresa">
 				<div class="py-5">
 					<div class="container">
 						<div class="row">
 							<div class="col-md-5">
-								<img src="images/restaurante.jpg" alt="" class="d-block w-100 rounded" />
+								<img src="img/about/office.jpeg" alt="" class="d-block w-100 rounded" />
 							</div>
 							<div class="col-md-7 mt-3 mt-md-0">
-								<h2 class="section-title">
-									Sobre <span class="text-colored">o Restaurante</span>
+								<h2 class="section-title text-decoration-underline">
+									Sobre <span class="text-colored">a empresa</span>
 								</h2>
-								<p>
-									Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis, fugiat
-									odio? Possimus perspiciatis tempore, voluptas totam sapiente sed atque
-									error eius. Et consequuntur qui repellat dolorem corrupti quasi
-									exercitationem facere.
+								<p class="mt-3">
+									A Mesh Analises é uma empresa voltada à aplicação das técnicas mais
+									robustas e eficientes para solução de análises estruturais via Elementos
+									Finitos.
 								</p>
 								<h3 class="section-title">
-									Sobre <span class="text-colored">o espaço</span>
+									Sobre <span class="text-colored">nosso escritório</span>
 								</h3>
 								<p>
-									Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, eius
-									dolorum. Optio deserunt praesentium dolore? Rem consequatur, laudantium
-									aperiam nobis laborum totam ex sunt magni ab temporibus, distinctio magnam
-									assumenda?
+									Localizado no interior de JavaScript, nosso escritório opera de forma
+									integrada e totalmente conectada à você e ao que há de melhor na
+									tecnologia de processamento e de análise computacional. Contamos com:
 								</p>
-								<ul>
-									<li>Item 1</li>
-									<li>Item 2</li>
-									<li>Item 3</li>
+								<ul class="list-unstyled">
+									<li class="flex-list-style">
+										<i class="fs-5 bi bi-caret-right-square-fill text-colored me-3"></i>
+										<p class="mb-0">
+											Time extremamente
+											<span class="text-colored text-capitalize fw-bold fst-italic fs-5"
+												>capacitado</span
+											>
+											e
+											<span class="text-colored text-capitalize fw-bold fst-italic fs-5"
+												>dedicado</span
+											>
+										</p>
+									</li>
+
+									<li class="flex-list-style">
+										<i class="fs-5 bi bi-caret-right-square-fill text-colored me-3"></i>
+										<p class="mb-0">
+											<span class="text-colored text-capitalize fw-bold fst-italic fs-5"
+												>Infraestrutura</span
+											>
+											de última geração em análise computacional
+										</p>
+									</li>
+
+									<li class="flex-list-style">
+										<i class="fs-5 bi bi-caret-right-square-fill text-colored me-3"></i>
+										<p class="mb-0">
+											Licença comercial dos principais softwares de análise, como
+											<span
+												class="text-colored text-capitalize fw-bold fst-italic fs-5"
+											>
+												Ansys</span
+											>,
+											<span
+												class="text-colored text-capitalize fw-bold fst-italic fs-5"
+											>
+												Abaqus</span
+											>
+											e
+											<span
+												class="text-colored text-capitalize fw-bold fst-italic fs-5"
+											>
+												Diana</span
+											>
+										</p>
+									</li>
 								</ul>
 							</div>
 						</div>
@@ -454,7 +495,9 @@
 									<input type="text" name="nome" id="nome" class="form-control" required />
 								</div>
 								<div class="mb-3">
-									<label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+									<label for="email" class="form-label fw-bold text-colored"
+										>Seu e-mail</label
+									>
 									<input
 										type="email"
 										name="email"
@@ -464,7 +507,9 @@
 									/>
 								</div>
 								<div class="mb-3">
-									<label for="telefone" class="form-label fw-bold text-colored">Seu telefone (opcional)</label>
+									<label for="telefone" class="form-label fw-bold text-colored"
+										>Seu telefone (opcional)</label
+									>
 									<input type="tel" name="telefone" id="telefone" class="form-control" />
 								</div>
 								<div class="mb-3">
@@ -478,20 +523,36 @@
 							<div class="row">
 								<h3 class="section-title fs-4 text-colored">
 									<i class="bi bi-hand-thumbs-up-fill"></i>
-									Redes sociais</h3>
+									Redes sociais
+								</h3>
 								<ul class="list-unstyled">
 									<li class="fs-5 d-inline">
-										<a class="text-decoration-none" href="http://" target="_blank" rel="noopener noreferrer">
+										<a
+											class="text-decoration-none"
+											href="http://"
+											target="_blank"
+											rel="noopener noreferrer"
+										>
 											<i class="bi bi-facebook text-colored"></i>
 										</a>
 									</li>
 									<li class="fs-5 d-inline mx-2">
-										<a class="text-decoration-none" href="http://" target="_blank" rel="noopener noreferrer">
+										<a
+											class="text-decoration-none"
+											href="http://"
+											target="_blank"
+											rel="noopener noreferrer"
+										>
 											<i class="bi bi-instagram text-colored"></i>
 										</a>
 									</li>
 									<li class="fs-5 d-inline">
-										<a class="text-decoration-none" href="http://" target="_blank" rel="noopener noreferrer">
+										<a
+											class="text-decoration-none"
+											href="http://"
+											target="_blank"
+											rel="noopener noreferrer"
+										>
 											<i class="bi bi-whatsapp text-colored"></i>
 										</a>
 									</li>
@@ -500,7 +561,8 @@
 							<div class="row mt-4">
 								<h3 class="section-title fs-4 text-colored">
 									<i class="bi bi-cursor-fill"></i>
-									Endereço</h3>
+									Endereço
+								</h3>
 								<p>Rua Teste Exemplo nº 123, Bootstrap, JavaScript - JS</p>
 							</div>
 						</div>
