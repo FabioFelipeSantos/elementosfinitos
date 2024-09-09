@@ -2,8 +2,14 @@ body {
 	font-family: "Titilium Web", sans-serif;
 }
 
-.navbar {
+.navbar,
+#footer-id {
 	background-color: hsl(120, 73%, 37%);
+}
+
+.modal-content {
+	background-color: hsl(120, 73%, 16%);
+	border: 2px solid white;
 }
 
 #cabecalho .nav .nav-link.active {
@@ -14,7 +20,9 @@ body {
 #cabecalho .nav .nav-link,
 .navbar-brand,
 .navbar-brand:hover,
-.nav-cardapio .nav-link.active:hover {
+.nav-products .nav-link.active:hover,
+#footer-id,
+.modal-content {
 	color: white;
 }
 
@@ -36,21 +44,25 @@ body {
 }
 
 #sobre-a-empresa,
-#cardapio {
-	background-color: #ffeae6;
+#products {
+	background-color: hsl(120, 45%, 92%);
+}
+
+p.px-4 {
+	text-align: justify;
 }
 
 .text-colored {
 	color: hsl(120, 73%, 37%);
 }
 
-.nav-cardapio .nav-link.active,
+.nav-products .nav-link.active,
 #fale-conosco button {
 	background-color: hsl(120, 73%, 37%);
 	color: white;
 }
 
-.nav-cardapio .nav-link:hover {
+.nav-products .nav-link:hover {
 	color: hsl(120, 73%, 37%);
 }
 
@@ -58,6 +70,66 @@ body {
 	margin-bottom: 12px;
 	display: flex;
 	align-items: center;
+}
+
+#tipos-de-analises img {
+	border: 1px solid hsl(120, 45%, 82%);
+	height: 280px;
+}
+
+#tipos-de-analises h3 {
+	margin-top: 28px;
+}
+
+#products button:not(.active):hover {
+	background-color: hsl(120, 45%, 88%);
+	color: hsl(120, 73%, 37%);
+}
+
+#products img {
+	height: 190px;
+}
+
+#contact-form input::placeholder {
+	color: hsl(120, 25%, 85%);
+}
+
+#footer-id a, .modal-content a {
+	color: hsl(100, 100%, 70%);
+	&:hover {
+		color: hsl(100, 80%, 82%);
+	}
+}
+
+#footer-id button {
+	background-color: hsl(100, 100%, 70%);
+	transition: all 0.15s ease-out;
+
+	&:hover {
+		background-color: hsl(120, 100%, 70%);
+		color: hsl(120, 55%, 15%);
+		border: 1.5px solid white;
+	}
+}
+
+#nome-error, #email-error, #mensagem-error {
+	margin-top: 4px;
+	padding-left: 12px;
+	color: hsl(12, 100%, 65%);
+}
+
+.modal-content code {
+	font-size: 1.2em;
+	color: hsl(0, 50%, 60%);
+}
+
+#tecnologias-utilizadas li {
+	margin: 16px 0;
+	&::before {
+		content: "⫸";
+		font-size: 20px;
+		margin: 0 16px;
+	}
 }
 
 @media screen and (max-width: 767px) {
